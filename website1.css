@@ -356,6 +356,9 @@ margin-right: 30px;
     .de1{
         margin-left: 65x;
     }
+    .first{
+        overflow-x: hidden;
+    }
     
 }
 @media(max-width:699px){
