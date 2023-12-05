@@ -222,13 +222,10 @@ margin-right: 30px;
     padding: 20px;
     border-radius: 20px;
 }
-@media(max-width:715px){
-    .sub1{
-        width:100%;
-    }
+
     
 
-}
+
 @media(max-width:500px){
     .sub31{
         width:300px;
@@ -269,9 +266,15 @@ margin-right: 30px;
     .sub1,.sub3,.sub41,.d1{
         width: 500px;
     }
-    .sub{
-        width:700px;
-    }
+  .sub{
+    width: 500px;
+  }
+  .b1{
+    display: none;
+  }
+  .first{
+    overflow-x: hidden;
+  }
    
    
     
@@ -341,20 +344,35 @@ margin-right: 30px;
        text-align: end;
     }
 } */
+@media only screen and(max-width:356px){
+    html,body{
+       width: 100%;
+       margin: 0;
+       padding:0;
+       overflow: hidden; }
 @media(max-width:356px){
-     html,body{
+     /* html,body{
         width: 100%;
-        margin: 0px;
-        padding:0px;
+        margin: 0;
+        padding:0;
         overflow: hidden;  
+    } */
+    html{
+        width: 100vw;
+        overflow-x: hidden;
     }
-    .sub1,.sub,nav,.sub3,.sub4,video,.d1,.last{
+    
+    .sub1,nav,.sub,.sub3,.sub4,video,.d1,.last{
         width: 100%;
 
     }
     .sub1,.sub3,.sub4,.d1,.last{
         margin-top: 50px;
     }
+    .sub{
+        overflow: hidden;
+    }
+    
     .last{
        flex-direction: column;
     }
@@ -378,7 +396,7 @@ margin-right: 30px;
     .first{
         padding: 0px;
         margin-left: 0px;
-         overflow-x: hidden; 
+        overflow-x: hidden; 
     }
     .d1{
         flex-direction: column;
