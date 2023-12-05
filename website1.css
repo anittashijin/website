@@ -39,7 +39,7 @@ a{
     height: 100px;
     border: 2px solid black;
     background-color:black ;
-    position: relative;
+   
     
 }
 .sub1{
@@ -47,9 +47,10 @@ a{
     width: 100%;
     background-color: black;
     background-image: url("./images/fitness1.png");
+    flex-wrap: wrap;
     background-size: cover;
     opacity: 90%;
-    margin-top: -300px;
+    margin-top: ;
 }
 .s1{
     height: inherit;
@@ -60,14 +61,14 @@ a{
 h1{
     color: white;
     margin-top: 300px;
-    font-size: 45px;
+    font-size: 35px;
 }
 .p1 {
     color: white;
    
 }
 .b2{
-    margin-left: 30px;
+    margin-left: 77px;
 }
 
 .sub2{
@@ -222,10 +223,100 @@ margin-right: 30px;
     padding: 20px;
     border-radius: 20px;
 }
+@media(max-width:392px){
+   nav{
+    width:400px;
+    overflow: hidden;
+    
+    padding-left: 10px;
+   }
+   a{
+    font-size: 12px;
+    padding-right: 15px;
+   }
+   .b1{
+    display: none;
+   }
+   .sub1{
+    width: 378px;
+    height: 500px;
+    
+    background-size:cover;
+   
+   }
+   h1{
+    margin-top:325px;
+    font-size: 26px;
+   }
+   .sub3{
+    width: 378px;
+    height: 500px;
+    background-size: cover;
+   }
+   .sub31{
+    width: 234px;
+    height: 264px;
+   }
+   .para{
+    font-size: 10px;
+    padding-left: 0px;
+   }
+   .back-vdo{
+    width: 380px;
 
+   }
+   .sub41{
+    width: 374px;
+    height: 212px;
+   }
+   .d1{
+    flex-direction: column;
+    height: 800px;
+    width: 376px;
+
+   }
+   .c{
+    width: 230px;
+    height: 160px;
+    margin: 54px;
+   }
+   .hed{
+    font-size: 20px;
+   }
+   .last{
+    flex-direction: column;
+   }
+   .de1{
+    margin-left: 25px;
+    margin-top: 112px;
+    border-radius: 100px;
+    width: 305px;
+}
+.ex{
+    font-size: 22px;
+    padding-left: 5px;
+}
+.ex1{
+    font-size: 7px;
+    padding-left: 0px;
+    margin-top: 10px;
+}
+ .bz{
+    padding: 10px;
+    margin-top: 30px;
+ }  
+ .first{ 
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+ }
+
+
+}
     
 
-
+/* 
 @media(max-width:500px){
     .sub31{
         width:300px;
@@ -276,88 +367,23 @@ margin-right: 30px;
     overflow-x: hidden;
   }
    
-   
-    
-   
-}
-/* @media(max-width:1130px) {
-    .sub1{
-       
-        background-image: url("./images/fitness1.png");
-        background-size: cover;
-        width: 100%;
-      padding-right: 100px;
-    }
-    .sub{
-        width: 100%;
-    }
-    nav{
-        width: 100%;
-        background-color: black;
-    }
-    .sub3{
-        width: 100%;
-        margin: 20px;
-    }
-    .sub4{
-        width:100%;
-        margin: 20px;
-    }
-    video{
-       
-        width:100%;
-        background-color: black;
-    }   
-    .d1{
-        width:100%;
-        margin: 20px;
-        margin-top: -145px;
-    }
-    
-   .last{
-    width:100%;
-   } 
-   .c{
-    overflow: hidden;
-   }
-   .de1{
-    margin-top: 10px;
-    margin-left: 50px;
-   }
-} */
-/* @media(max-width:1000px){
-    .ex1{
-        font-size: 10px;
-    }
-    .d1{
-        height: 900px;
-    }
-    .c1{
-        margin-top: 190px;
-       
-    }
-    .c{
-        margin-right: 10px;
-    }
-    .ex1{
-        font-size: 1px;
-       text-align: end;
-    }
-} */
-@media only screen and(max-width:356px){
+/*    
+ 
+/* @media only screen and(max-width:356px) 
+{
     html,body{
        width: 100%;
        margin: 0;
        padding:0;
-       overflow: hidden; }
-@media(max-width:356px){
+       overflow: hidden; } */
+/* @media(max-width:360px){
      /* html,body{
         width: 100%;
         margin: 0;
         padding:0;
         overflow: hidden;  
     } */
-    html{
+    /*html{ 
         width: 100vw;
         overflow-x: hidden;
     }
@@ -411,7 +437,7 @@ margin-right: 30px;
         margin-top: 285px;
     }
     .sub31{
-        width:300px;
+        width:200px;
     }
     .para{
         font-size: 10px;
@@ -421,8 +447,14 @@ margin-right: 30px;
         width: 100%;
         
     }
+   h1{
+    font-size: 8px;
+   }
+   .sub1 {
+height: 500px;
+   }
     
-}
+}  */
 /* @media(max-width:699px){
     
     .de1{
